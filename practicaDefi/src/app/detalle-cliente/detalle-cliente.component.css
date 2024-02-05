@@ -1,0 +1,21 @@
+.cliente-detalle{
+    border: solid black 2px;
+    box-shadow: 13px 10px 5px -1px rgba(0,0,0,0.75);
+    width: 250px;
+    height: 300px;
+    text-align: center;
+}
+.cliente-detalle img{
+    width: 170px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+}
+.img{
+    display: flex;
+    justify-content: center;
+}
+.negrita{
+    font-weight: bold;
+}

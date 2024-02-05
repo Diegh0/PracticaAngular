@@ -1,0 +1,9 @@
+<h2>BORRAR ARTICULO</h2>
+{{articulo.id}}<br>
+{{articulo.nombre}}<br>
+{{articulo.descripcion}}<br>
+{{articulo.precio}}
+<h3>¿Desea borrar el articulo?</h3>
+<button (click)="borrar()" class="btn btn-danger">Borrar</button>   
+<button routerLink="/articulos/cards" class="btn btn-primary">Cancelar</button>   
+

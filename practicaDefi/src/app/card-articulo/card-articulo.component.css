@@ -1,0 +1,21 @@
+.c-card{
+    border: solid black 1px;
+    width: 250px;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    box-shadow: 12px 10px 17px 10px rgba(0,0,0,0.75);
+}
+.c-card:hover{
+    cursor:grab;
+    transform: scale(1.1);
+
+}
+.c-card button{
+    margin: 5px;
+    width: 100px;
+}
+img{
+    width: 200px;
+}

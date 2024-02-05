@@ -1,0 +1,22 @@
+<div class="c-card">
+    <div>
+        <div class="img-articulo">
+            <img src="../../assets/{{articulo.id}}.jpg" >
+        </div>
+        <div class="nombre-articulo">
+            {{articulo.nombre}}
+        </div>
+        <div class="descripcion-articulo">
+            {{articulo.descripcion}}
+        </div>
+        <div class="precio-articulo">
+            {{articulo.precio}}
+        </div>
+        
+        <button routerLink="/borrar/{{articulo.id}}" class="btn btn-danger">Borrar</button>   
+        <button routerLink="/ver/{{articulo.id}}" class="btn btn-primary">Ver </button>
+
+        
+    </div>
+</div>
+

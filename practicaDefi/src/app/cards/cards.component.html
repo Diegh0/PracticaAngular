@@ -1,0 +1,7 @@
+<div class="anyadir-articulo">
+    <button routerLink="/añadir" class="btn btn-primary">Añadir articulo +</button>
+</div>
+<div class="container-cards">
+    <app-card-articulo *ngFor="let articulo of articulos" [articulo]="articulo">  
+    </app-card-articulo>
+</div>

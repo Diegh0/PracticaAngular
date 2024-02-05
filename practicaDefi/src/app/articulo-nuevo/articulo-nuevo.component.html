@@ -1,0 +1,21 @@
+<table>
+    <tr>
+        <td>id:</td>
+        <td><input type="text" [(ngModel)]="articuloNuevo.id"> </td>
+    </tr>
+    <tr>
+        <td>nombre:</td>
+        <td><input type="text" [(ngModel)]="articuloNuevo.nombre"> </td>
+    </tr>
+    <tr>
+        <td>descripcion:</td>
+        <td><input type="text" [(ngModel)]="articuloNuevo.descripcion"> </td>
+    </tr>
+    <tr>
+        <td>precio:</td>
+        <td><input type="text" [(ngModel)]="articuloNuevo.precio"> </td>
+    </tr>
+    <tr>
+        <button (click)="anyadirArticulo()" class="btn btn-primary">Añadir</button>   
+    </tr>
+</table>
